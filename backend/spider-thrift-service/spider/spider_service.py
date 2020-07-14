@@ -2,10 +2,10 @@ from thrift.protocol import TBinaryProtocol
 from thrift.server import TNonblockingServer
 from thrift.transport import TSocket, TTransport
 
-from spider.api import SpiderService
+from api import SpiderService
 
 # 爬虫实现
-from spider.util.covid19_spider import Spider
+from util.covid19_spider import Spider
 
 host = '127.0.0.1'
 port = '9090'
